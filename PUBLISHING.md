@@ -37,6 +37,10 @@ Create a pull request and merge the release branch. This allows for any final re
 
     npm publish
 
+Use the `beta` tag to publish a beta version:
+
+    npm publish --tag beta
+
 ### Commit release artifacts
 
     git add -f dist
